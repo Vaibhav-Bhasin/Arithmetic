@@ -7,3 +7,5 @@ for questions in range(10):
   opt = computer=random.choice([ "-" , "+" , "*" , "/" ])
   print(a,opt,b)
   if opt=="+":
+    ans=float(a+b)
+  elif opt=="-":
