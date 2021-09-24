@@ -14,3 +14,6 @@ for questions in range(10):
     ans=float(a*b)
   elif opt=="/":
     ans=float(a/b)  
+  student=float(input("Please Enter Your Answer:: \n"))
+  if student==ans:
+    print("Correct")
