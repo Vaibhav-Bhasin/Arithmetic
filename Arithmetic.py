@@ -13,3 +13,4 @@ for questions in range(10):
   elif opt=="*":
     ans=float(a*b)
   elif opt=="/":
+    ans=float(a/b)  
