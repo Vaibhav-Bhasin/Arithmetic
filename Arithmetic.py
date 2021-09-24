@@ -17,3 +17,7 @@ for questions in range(10):
   student=float(input("Please Enter Your Answer:: \n"))
   if student==ans:
     print("Correct")
+  elif student!=ans:
+    print("Incorrect")
+ 
+  print()
