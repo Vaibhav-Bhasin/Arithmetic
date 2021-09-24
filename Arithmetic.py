@@ -4,3 +4,6 @@ import random
 for questions in range(10):
   a= random.randint(0,5000)
   b= random.randint(0,5000)
+  opt = computer=random.choice([ "-" , "+" , "*" , "/" ])
+  print(a,opt,b)
+  if opt=="+":
