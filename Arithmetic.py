@@ -9,3 +9,7 @@ for questions in range(10):
   if opt=="+":
     ans=float(a+b)
   elif opt=="-":
+    ans=float(a-b)
+  elif opt=="*":
+    ans=float(a*b)
+  elif opt=="/":
